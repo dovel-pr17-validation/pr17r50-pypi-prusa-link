@@ -1,0 +1,13 @@
+venv
+.idea
+.env
+__pycache__
+*.pyc
+build
+dist
+*.egg-info
+*.orig
+.hypothesis
+*.coverage
+htmlcov
+docs/*.png

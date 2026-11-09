@@ -1,0 +1,20 @@
+[BASIC]
+
+good-names=i,l,f,sn,ip
+
+[TYPECHECK]
+
+generated-members=prctl
+
+[MASTER]
+extension-pkg-whitelist=pydantic
+ignore=v4l2.py
+
+[MESSAGES CONTROL]
+disable=
+    fixme,
+    unsubscriptable-object,
+    too-few-public-methods,
+    too-many-instance-attributes,
+    too-many-public-methods,
+    wrong-import-order
